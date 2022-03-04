@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  margin: 200px 30%;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  padding: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: green;
+  color: white;
+  letter-spacing: 2px;
+  font: {
+    weight: 700;
+    size: 21px;
+  }
+}
